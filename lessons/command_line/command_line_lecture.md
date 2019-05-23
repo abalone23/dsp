@@ -68,7 +68,7 @@ cd test_directory
 This "changes directory" and makes the named directory our new working
 directory. 
 
-> Question: How could we make sure that we moved?
+> Type `pwd`
 
 Let's get a few special things out of the way as well for command line. When
 we talk about folders, we don't always want to move "into" the next folder
@@ -191,7 +191,7 @@ We can get even fancier by adding a second flag
 ls -lh
 ```
 
-> What changed?
+> Human readable format, so gb, mb etc.
 
 If instead copying we just want to change the name of a file, we can do:
 

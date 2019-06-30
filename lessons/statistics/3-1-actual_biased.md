@@ -21,6 +21,8 @@ pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 thinkplot.Pmf(pmf)
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
+![plot 1](https://github.com/abalone23/dsp/blob/master/lessons/statistics/3-1a.png)
+
 ## Define
 def BiasPmf(pmf, label):
     new_pmf = pmf.Copy(label=label)
@@ -38,4 +40,7 @@ thinkplot.PrePlot(2)
 thinkplot.Pmfs([pmf, biased])
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
+![plot 2](https://github.com/abalone23/dsp/blob/master/lessons/statistics/3-1b.png)
+
+### Display biased and actial mean
 pmf.Mean(), biased.Mean()

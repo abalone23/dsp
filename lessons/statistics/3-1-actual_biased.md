@@ -7,8 +7,11 @@
 import numpy as np
 
 import nsfg
+
 import first
+
 import thinkstats2
+
 import thinkplot
 
 ### Create DataFrame
@@ -19,6 +22,7 @@ pmf = thinkstats2.Pmf(resp.numkdhh, label='numkdhh')
 
 ### Make Plot
 thinkplot.Pmf(pmf)
+
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 ![plot 1](https://github.com/abalone23/dsp/blob/master/lessons/statistics/3-1a.png)
@@ -37,7 +41,9 @@ biased = BiasPmf(pmf, label='biased')
 
 ### Plot biased and actual PMF
 thinkplot.PrePlot(2)
+
 thinkplot.Pmfs([pmf, biased])
+
 thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 ![plot 2](https://github.com/abalone23/dsp/blob/master/lessons/statistics/3-1b.png)

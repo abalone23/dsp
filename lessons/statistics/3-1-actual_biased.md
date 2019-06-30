@@ -42,5 +42,5 @@ thinkplot.Config(xlabel='Number of children', ylabel='PMF')
 
 ![plot 2](https://github.com/abalone23/dsp/blob/master/lessons/statistics/3-1b.png)
 
-### Display biased and actial mean
+### Display biased and actual mean
 pmf.Mean(), biased.Mean()

@@ -48,9 +48,13 @@
         print(f'90% Confidence Interval: {ci}, Standard Error: {stderr}')
         stderr_results[n] = stderr
 
-`90% Confidence Interval: (1.3123469275458386, 3.7049263194247826), Standard Error: 0.8050262243410099`
-`90% Confidence Interval: (1.7034858102186672, 2.359562824392451), Standard Error: 0.20107085610640935`
+`90% Confidence Interval: (1.3123469275458386, 3.7049263194247826), Standard Error: 0.8050262243410099`  
+`90% Confidence Interval: (1.7034858102186672, 2.359562824392451), Standard Error: 0.20107085610640935`  
 `90% Confidence Interval: (1.9024770720204394, 2.105764088660618), Standard Error: 0.061375133002255944`
+
+![plot 1](https://github.com/abalone23/dsp/blob/master/lessons/statistics/8-2a.png)
 
 ### Scatter Plot showing standard error decreasesing as n increases
   plt.scatter(list(stderr_results.keys()), list(stderr_results.values()))
+
+![plot 2](https://github.com/abalone23/dsp/blob/master/lessons/statistics/8-2b.png)
